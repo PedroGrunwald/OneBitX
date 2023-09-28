@@ -1,5 +1,3 @@
-
-
 .tittlePadding {
   padding-top: 200px;
 }
@@ -14,4 +12,22 @@
   margin-bottom: -25px;
 }
 
+@media (max-width: 750px) {
+  .tittlePadding {
+    padding-top: 120px;
+  }
 
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+
+@media(max-width: 380px){
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 40px;
+  }
+}
