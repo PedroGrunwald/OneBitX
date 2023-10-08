@@ -76,6 +76,27 @@
   }
 }
 
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+
+  button {
+    border: 2px solid white;
+    margin-right: 10px;
+  }
+}
+
+.emailPG {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+  &:hover {
+    border-bottom: 1px solid $link-hover;
+    color: $link-hover;
+  }
+}
+
 // media query
 
 @media (max-width: 405px) {
